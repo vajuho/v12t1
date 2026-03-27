@@ -17,7 +17,7 @@ import com.example.v12t1.fragments.ShowMonsterFragment;
 
 public class FightMonstersActivity extends AppCompatActivity {
     Button BossFightFragmentButton;
-    Button ShowMonstersFragmentButton;
+    Button ShowMonsterFragmentButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +30,12 @@ public class FightMonstersActivity extends AppCompatActivity {
             return insets;
         });
         BossFightFragmentButton = findViewById(R.id.BossFightFragmentButton);
-        ShowMonstersFragmentButton = findViewById(R.id.ShowMonstersActivityButton);
+        ShowMonsterFragmentButton = findViewById(R.id.ShowMonsterFragmentButton);
 
         BossFightFragmentButton.setEnabled(false);
         checkBossButton();
 
-        ShowMonstersFragmentButton.setOnClickListener(new View.OnClickListener() {
+        ShowMonsterFragmentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 fragmentSwapMethod(new ShowMonsterFragment());
