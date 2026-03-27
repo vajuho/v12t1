@@ -27,6 +27,10 @@ public class GameManager {
         return latestMonster;
     }
 
+    public Monster getLatestMonster() {
+        return latestMonster;
+    }
+
     public Player getPlayer() {
         return player;
     }
