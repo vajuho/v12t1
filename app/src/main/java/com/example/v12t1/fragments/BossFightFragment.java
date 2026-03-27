@@ -53,6 +53,7 @@ public class BossFightFragment extends Fragment {
                 }
             }
         };
+        updateBoss();
         BossImage.setImageResource(R.drawable.robot);
 
         AttackBossButton.setOnClickListener(new View.OnClickListener() {
