@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BossFightFragment">
+
+    <ImageView
+        android:id="@+id/MonsterImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@tools:sample/avatars"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/AttackMonsterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyökkää"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/MonsterNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/MonsterLifeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="275dp"/>
+
+</FrameLayout>
